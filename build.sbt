@@ -2,7 +2,7 @@ name := "sbt-scoverage"
 
 organization := "com.sksamuel.scoverage"
 
-version := "0.95.10-pagero"
+version := "0.95.11-pagero"
 
 scalaVersion := "2.10.3"
 
@@ -16,6 +16,8 @@ libraryDependencies ++= Seq(
 
 publishTo := Some(Resolver.url("Pagero releases",
   new URL("http://pogit/nexus/content/repositories/releases")))
+
+crossPaths := false
 
 publishMavenStyle := true
 
