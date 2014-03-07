@@ -1,1 +1,1 @@
-version in ThisBuild := "0.95.12-pagero-SNAPSHOT"
+version in ThisBuild := "0.95.12-pagero"
