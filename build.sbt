@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
 )
 
 publishTo := Some(Resolver.url("Pagero releases",
-  new URL("http://pogit/nexus/content/repositories/releases"))(Resolver.ivyStylePatterns))
+  new URL("http://pogit/nexus/content/repositories/releases")))
 
 publishMavenStyle := true
 
