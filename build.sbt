@@ -2,7 +2,7 @@ name := "sbt-scoverage"
 
 organization := "com.sksamuel.scoverage"
 
-version := "0.95.11-pagero"
+//version := "0.95.12"
 
 scalaVersion := "2.10.3"
 
@@ -24,3 +24,5 @@ publishMavenStyle := true
 publishArtifact in Test := false
 
 licenses +=("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0.html"))
+
+sbtrelease.ReleasePlugin.releaseSettings
