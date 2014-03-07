@@ -2,7 +2,7 @@ name := "sbt-scoverage"
 
 organization := "com.sksamuel.scoverage"
 
-version := "0.95.9"
+version := "0.95.9-pagero"
 
 scalaVersion := "2.10.3"
 
@@ -14,8 +14,8 @@ libraryDependencies ++= Seq(
   "com.sksamuel.scoverage" %% "scalac-scoverage-plugin" % "0.95.9"
 )
 
-publishTo := Some(Resolver.url("sbt-plugin-releases",
-  new URL("http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns))
+publishTo := Some(Resolver.url("Pagero releases",
+  new URL("http://pogit/nexus/content/repositories/releases"))(Resolver.ivyStylePatterns))
 
 publishMavenStyle := false
 
